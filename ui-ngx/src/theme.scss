@@ -182,7 +182,7 @@ $tb-dark-theme: map_merge($tb-dark-theme, $color);
 
 @mixin _mat-toolbar-inverse-color($palette) {
   background: mat.m2-get-color-from-palette($palette, default-contrast);
-  color: rgba(black, 0.87);
+  color: #2b3034;
 }
 
 @mixin mat-fab-toolbar-inverse-theme($theme) {
@@ -256,6 +256,9 @@ $tb-dark-theme: map_merge($tb-dark-theme, $color);
 }
 
 .tb-default {
+  --mat-toolbar-container-text-color: #2b3034;
+  --mat-toolbar-container-background-color: #e6e6e6;
+
   @include mat.all-component-themes($tb-theme);
   @include mat-datetimepicker-theme($tb-theme);
   @include tb-components-theme($tb-theme);
