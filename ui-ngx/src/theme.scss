@@ -207,7 +207,7 @@ $tb-dark-theme: map_merge($tb-dark-theme, $color);
         @include _mat-toolbar-inverse-color($primary);
         button.mat-mdc-icon-button {
           .mat-icon {
-            color: mat.m2-get-color-from-palette($primary);
+            color: #2b3034;
           }
         }
       }
